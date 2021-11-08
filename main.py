@@ -4,7 +4,7 @@ import smtplib
 
 # enter credentials
 GMAIL_ID  = 'sirjansk@gmail.com'
-GMAIL_PW = 'fakepw'
+GMAIL_PW = 'thisisafakepassword'
 def sendEmail(to,sub,msg):
     print(f"Email to {to} sent with the subject {sub} and message {msg}")
     s = smtplib.SMTP('smtp.gmail.com', 587)
